@@ -6,6 +6,7 @@
 // /sayhello - says hello! :)
 
 var OSinfo = require('./modules/OSInfo.js');
+var colors = require('./node_modules/colors')
 
 process.stdin.setEncoding('utf-8');
 process.stdin.on('readable', function(){
